@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-top: 25px;
+
+}
+
+a {
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+a:hover {
+    color: #e80b51;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.bt1 {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border-radius: 10px;
+    border: #4CB538 solid 1px;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.bt1:hover {
+    color: #6FBF44;
+    border: #91e081 solid 1px;
+    background-color: #FFFFFF;
+    transition: 0.3s ease;
+}
+
+.bt1:active {
+    background: #99e172;
+    color: #FFFFFF;
+    border: #6dd757 solid 1px;
+}
+
+img {
+    height: 500px;
+    width: 595.18px;
+    padding: 10px;
+}
+
+.imagem {
+    width: 40%;
+    margin-top: 118px;
+    margin-left: 84px;
+    display: inline-block;
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    height: 164px;
+    width: 582px;
+    margin-bottom: 32px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-bottom: 32px;
+    text-justify: auto;
+}
+
+.bt2 {
+    height: 40px;
+    width: 125px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    background-color: #FFFFFF;
+    border-radius: 10cm;
+    border: #6FBF44 solid 1px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+.bt2:hover {
+    background: #6dd757;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.bt2:active {
+    color: #d8f8da;
+    background: #52d3b1;
+
+}
+
+.right {
+    width: 40%;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+/*Responsividade*/
+
+
+
+@media screen and (max-width: 1310px) {
+    a {
+        margin-left: 90px;
+    }
+
+    img {
+        height: 420px;
+        width: 500.18px;
+        padding: 16px;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    p {
+        margin-bottom: 102px;
+    }
+
+    .bt2 {
+        margin-bottom: 50px;
+        position: relative;
+        transform: translateY(-50px);
+    }
+}
+
+/*1100px*/
+
+
+@media screen and (max-width: 1110px) {
+    a {
+        margin-left: 90px;
+
+    }
+
+    .imagem {
+        margin-left: 10px;
+    }
+
+    img {
+        height: 380px;
+        width: 470.18px;
+        padding: 16px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 64px;
+        width: 500px;
+        height: 150px;
+    }
+
+    p {
+        margin-bottom: 102px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .bt2 {
+        margin-bottom: 50px;
+        position: relative;
+        transform: translateY(-50px);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        transform: translateY(-80px);
+
+    }
+}
+
+
+/*Smartphone*/
+
+@media screen and (max-width: 450px) {
+    a {
+        margin-left: 0px;
+
+    }
+
+    a {display: none;}
+    .bt1 { 
+        margin-left: 240px;
+    }
+.right {
+    display: block;
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    width: 95%;
+    height: 45%;
+    transform: translateY(-390px);
+}
+    .imagem {
+      
+        position: relative;
+        top: 320px;
+        /*margin: 500px 10px 10px 10px;*/
+    }
+
+    img {
+
+        height: 336px;
+        width: 319px;
+        padding: 0px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 64px;
+        width: auto;
+        height: 150px;
+        text-align: center;
+        margin-left: auto;
+    }
+
+    p {
+        margin: 15px 50px ;
+        font-size: 18px;
+        line-height: 35px;
+        width: auto;
+        height: 304px;
+        text-align: center;
+
+    }
+
+    .bt2 {
+        margin-bottom: 50px;
+        position: relative;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        transform: translateY(-138px);
+        margin-left: 110px;
+
+    }
+}
