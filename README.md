@@ -7,7 +7,7 @@
 
 <h4> :pencil: Informações do projeto:</h4>
 <p>
-:pushpin: <i>Esse projeto foi feito como um desafio, onde tinhamos uma imagem de um um site, retirada do Figma, em que tinhamos que transforma-la em um site usando programação com html e CSS.</i>
+:pushpin: <i>Esse projeto foi feito como um desafio, onde tinhamos uma imagem de um um site, retirada do Figma, em que precisavamos transforma-la em um site usando programação com html e CSS.</i>
   </p>
 <p>
 :pushpin: <i>Outra parte do desafio era transformar a página responsiva para que a mesma pudese ser aberta em outros aparelhos, com telas de tamanhos diversos, como smartphone.</i>
